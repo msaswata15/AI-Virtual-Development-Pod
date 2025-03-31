@@ -1,43 +1,67 @@
-# Ignore Python-related files
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
+
+# Virtual environment directories
+venv/
+ENV/
+env/
 *.env
 .env
 
-# Ignore virtual environments
-venv/
-env/
-*.venv
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
 
-# Ignore dependency files
-Pipfile
-Pipfile.lock
-poetry.lock
+# PyInstaller
+*.manifest
+*.spec
 
-# Ignore logs and database files
-logs/
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
 *.log
-*.sqlite3
-*.db
-*.sql
+local_settings.py
 
-# Ignore IDE and editor settings
+# Flask stuff:
+instance/
+.webassets-cache
+
+# IDEs and editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# Ignore deployment and build artifacts
-*.egg-info/
-dist/
-build/
-*.bak
-
-# Ignore ChromaDB storage
-chromadb_storage/
-
-# Ignore Pinecone and other AI-related cache
-pinecone_cache/
-huggingface_cache
+# macOS
+.DS_Store
