@@ -1,0 +1,12 @@
+# Frontend Dependencies
+
+# Web Frameworks
+streamlit==1.32.0
+gradio==4.21.0
+
+# General Utilities
+numpy==1.26.4
+pandas==2.2.1
+
+# API Request Handling
+requests==2.31.0
