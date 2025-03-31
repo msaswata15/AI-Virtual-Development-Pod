@@ -1,0 +1,43 @@
+# Ignore Python-related files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env
+
+# Ignore virtual environments
+venv/
+env/
+*.venv
+
+# Ignore dependency files
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Ignore logs and database files
+logs/
+*.log
+*.sqlite3
+*.db
+*.sql
+
+# Ignore IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore deployment and build artifacts
+*.egg-info/
+dist/
+build/
+*.bak
+
+# Ignore ChromaDB storage
+chromadb_storage/
+
+# Ignore Pinecone and other AI-related cache
+pinecone_cache/
+huggingface_cache
