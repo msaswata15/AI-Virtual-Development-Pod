@@ -1,0 +1,7 @@
+crewai==0.1.0
+ollama==0.1.2
+langchain==0.0.335  # Downgraded to match crewai's requirement
+chromadb==0.4.15
+streamlit==1.28.0
+python-dotenv==1.0.0
+pyyaml==6.0.1
